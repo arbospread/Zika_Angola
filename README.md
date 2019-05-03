@@ -5,16 +5,16 @@ This folder contains genetic alignments, XML files and phylogenetic trees genera
 Below, we provide brief explanations of each of the files:
 
 #### ZIKV genetic alignment
-+ `Filename here`: alignment of three new Angolan ZIKV genomic sequences with 390 other ZIKV genomes publicly available from GenBank. The alignment was generated using [MUSCLE] [1]. 
++ `15-11-2018_large.fas`: alignment of three new Angolan ZIKV genomic sequences with 390 other ZIKV genomes publicly available from GenBank. The alignment was generated using [MUSCLE] [1]. 
 
 #### Maximum likelihood tree 
-+ `Filename here`: Maximum likelihood phylogeny of the ZIKV alignment, generated using [PhyML v3.1] [2] under a general time reversible nucleotide substitution model, with gamma-distributed among-site rate variation and a proportion of invariant sites (GTR + G + I). 
++ `15-11-2018_large-PhyML_tree.tre`: Maximum likelihood phylogeny of the ZIKV alignment, generated using [PhyML v3.1] [2] under a general time reversible nucleotide substitution model, with gamma-distributed among-site rate variation and a proportion of invariant sites (GTR + G + I). 
 
 #### Molecular clock tree 
-+ `Filename here`: Maximum clade credibility phylogeny, estimated from the ZIKV genomic alignment using a molecular clock phylogenetic approach implemented in [BEAST v1.10.3.7] [3]. The phylogeny was estimated under a relaxed clock model and a codon-partition (SRD06) nucleotide substitution model.  
++ `ZIKV_07-11-2018.large_HKY_BSP_ULC_250E6_combined_10pcburnin.tre`: Maximum clade credibility phylogeny, estimated from the ZIKV genomic alignment using a molecular clock phylogenetic approach implemented in [BEAST v1.10.3.7] [3]. The phylogeny was estimated under a relaxed clock model and a codon-partition (SRD06) nucleotide substitution model.  
 
 #### XML 
-+ `Filename here`: XML file generated in [BEAUTI] [4] for the above BEAST analysis. 
++ `ZIKV_15-11-2018.large_HKY_BSP_ULC_250E6_updated.xml`: XML file generated in [BEAUTI] [4] for the above BEAST analysis. 
 
 ## Authors
 Sarah C Hill (1), Jocelyne Vasconcelos (2), Zoraima Neto (2), Domingos Jandondo (2), Líbia Zé-Zé (3,4), Renato Santana Aguiar (5,6), Joilson Xavier (6), Julien Thézé (1), Marinela Mirandela (2), Ana Luísa Micolo Cândido (2), Filipa Vaz (2), Cruz dos Santos Sebastião (2), Chieh-Hsi Wu (8), Moritz UG Kraemer (1,9,10), Adriana Melo (11), Bruno LF Schamber-Reis (12), Girlene S de Azevedo (11), Amilcar Tanuri (5), Luiza M. Higa (5), Carina Clemente (13), Sara Pereira da Silva (13), Darlan da Silva Candido (1), Ingra M Claro (14), Domingos Quibuco (15), Cristóvão Domingos (16), Bárbara Pocongo (16), Alexander G Watts (17,18), Kamran Khan (17,18,19), Luiz Carlos Junior Alcantara (6,20), Ester C Sabino (14), Eve Lackritz (21), Oliver Pybus (1), Maria-João Alves (3), Joana Afonso (2), Nuno R Faria (1)
